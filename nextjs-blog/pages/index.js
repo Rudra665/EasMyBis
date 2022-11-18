@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Header from './Header.jpg'
 import Button from '@mui/material/Button'
+import { Box } from '@mui/system'
+import { Typography } from '@mui/material'
+import Grid from '@mui/material/Grid'
 export default function Home() {
   return (
     <div className="container">
